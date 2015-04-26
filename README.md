@@ -1,9 +1,10 @@
 # msnger
 
-**A MySQL / PHP / Arduino based messenger
+A MySQL / PHP / Arduino based messenger
 
-Use the following query to create the messages table within your MySQL database.**
+Use the following query to create the messages table within your MySQL database.
 
+```
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 -- Table structure for table `messages`
@@ -16,3 +17,4 @@ CREATE TABLE IF NOT EXISTS `messages` (
   KEY `msg` (`msg`,`author`),
   FULLTEXT KEY `author` (`author`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+```
