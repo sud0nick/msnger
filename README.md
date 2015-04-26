@@ -2,7 +2,7 @@
 
 A MySQL / PHP / Arduino based messenger
 
---
+
 HARDWARE
 --
 
@@ -11,7 +11,7 @@ HARDWARE
     Adafruit CC3000 WiFi Breakout
 
 
---
+
 MySQL
 --
 Use the following query to create the messages table within your MySQL database.
