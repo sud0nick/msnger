@@ -2,6 +2,18 @@
 
 A MySQL / PHP / Arduino based messenger
 
+--
+HARDWARE
+--
+
+    Arduino Uno R3
+    SainSmart LCD Keypad Shield v1.0
+    Adafruit CC3000 WiFi Breakout
+
+
+--
+MySQL
+--
 Use the following query to create the messages table within your MySQL database.
 
 ```
